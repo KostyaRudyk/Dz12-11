@@ -26,7 +26,6 @@ box = Box()
 box.add_square(square1)
 box.add_square(square2)
 
-# Виведення інформації
 print(f"Площа першого квадрата: {square1.area()}")
 print(f"Площа другого квадрата: {square2.area()}")
 print(f"Загальна площа коробки: {box.total_area()}")
